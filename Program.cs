@@ -26,8 +26,8 @@ void Run()
     {
         case 1:
         {
-            var name = GetValidStringFromUser("enter name ");
-            var age = GetNumberFromUser("enter age");
+            var name = GetValidStringFromUser("enter name : ");
+            var age = GetNumberFromUser("enter age :");
             var gender = GetNumberFromUser("choose :\n" +
                                            "1. male\n" +
                                            "2. female");
@@ -37,7 +37,7 @@ void Run()
         }
         case 2:
         {
-            var name = GetValidStringFromUser("enter name");
+            var name = GetValidStringFromUser("enter name :");
             user.RemoveUser(name);
             break;
         }
